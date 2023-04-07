@@ -1,5 +1,12 @@
-import { TypeAnimation } from 'react-type-animation'
 import { FaInstagram, FaLinkedinIn, FaGithub, FaTwitter } from 'react-icons/fa'
+import { TypeAnimation } from 'react-type-animation'
+
+import {
+  LINK_GITHUB,
+  LINK_INSTA,
+  LINK_LINKEDIN,
+  LINK_TWITTER,
+} from '../utils/links-site'
 
 export function Main() {
   return (
@@ -12,9 +19,9 @@ export function Main() {
 
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
         {/* TODO: Remove here lg:items-start */}
-        <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center items-center">
+        <div className="max-w-[700px] m-auto h-full w-full flex flex-col lg:items-start justify-center items-center">
           <h1 className="sm:text-5xl text-4xl font-bold text-gray-800">
-            👋 Olá! Me chamo Hilquias
+            I'm Hilquias Melo 👋
           </h1>
           <h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-800">
             I'm a
@@ -35,10 +42,38 @@ export function Main() {
           </h2>
 
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
-            <FaGithub className="cursor-pointer" size={20} />
-            <FaLinkedinIn className="cursor-pointer" size={20} />
-            <FaInstagram className="cursor-pointer" size={20} />
-            <FaTwitter className="cursor-pointer" size={20} />
+            <a
+              href={LINK_GITHUB}
+              target="_blank"
+              title="GitHub"
+              rel="noreferrer"
+            >
+              <FaGithub className="cursor-pointer" size={20} />
+            </a>
+            <a
+              href={LINK_LINKEDIN}
+              target="_blank"
+              title="Linkedin"
+              rel="noreferrer"
+            >
+              <FaLinkedinIn className="cursor-pointer" size={20} />
+            </a>
+            <a
+              href={LINK_INSTA}
+              target="_blank"
+              title="Instagram"
+              rel="noreferrer"
+            >
+              <FaInstagram className="cursor-pointer" size={20} />
+            </a>
+            <a
+              href={LINK_TWITTER}
+              target="_blank"
+              title="Twitter"
+              rel="noreferrer"
+            >
+              <FaTwitter className="cursor-pointer" size={20} />
+            </a>
           </div>
         </div>
       </div>
