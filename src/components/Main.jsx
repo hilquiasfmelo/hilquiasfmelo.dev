@@ -48,7 +48,10 @@ export function Main() {
               title="GitHub"
               rel="noreferrer"
             >
-              <FaGithub className="cursor-pointer" size={20} />
+              <FaGithub
+                className="cursor-pointer hover:scale-150 ease-in transition"
+                size={20}
+              />
             </a>
             <a
               href={LINK_LINKEDIN}
@@ -56,7 +59,10 @@ export function Main() {
               title="Linkedin"
               rel="noreferrer"
             >
-              <FaLinkedinIn className="cursor-pointer" size={20} />
+              <FaLinkedinIn
+                className="cursor-pointer hover:scale-150 ease-in transition"
+                size={20}
+              />
             </a>
             <a
               href={LINK_INSTA}
@@ -64,7 +70,10 @@ export function Main() {
               title="Instagram"
               rel="noreferrer"
             >
-              <FaInstagram className="cursor-pointer" size={20} />
+              <FaInstagram
+                className="cursor-pointer hover:scale-150 ease-in transition"
+                size={20}
+              />
             </a>
             <a
               href={LINK_TWITTER}
@@ -72,7 +81,10 @@ export function Main() {
               title="Twitter"
               rel="noreferrer"
             >
-              <FaTwitter className="cursor-pointer" size={20} />
+              <FaTwitter
+                className="cursor-pointer hover:scale-150 ease-in transition"
+                size={20}
+              />
             </a>
           </div>
         </div>

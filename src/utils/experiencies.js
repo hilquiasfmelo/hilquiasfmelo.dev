@@ -5,7 +5,7 @@ export const data = [
     orgazionation: 'Ordem dos Advogado do Brasil Seccional do Maranhão',
     duration: '2 anos',
     details:
-      'Responsável pelo desenvolvimento e mantimento de sistemas criados dentro da empresa, como também organizar, manter e estruturar  infraestruturas de rede como também cabeamento estruturado. Criar, configurar e manter servidores windows para gerenciamento de usuários e máquinas da empresa, assim também como roteadores e firewall.',
+      'Responsável pelo desenvolvimento e mantimento de sistemas criados dentro da empresa, como também organizar manter e estruturar infraestruturas de rede e cabeamento estruturado. Criar, configurar e manter servidores windows para gerenciamento de usuários e máquinas da empresa, assim como roteadores e firewall.',
   },
   {
     year: '2019 - 2021',
@@ -18,7 +18,7 @@ export const data = [
   {
     year: '2017 - 2021',
     title: 'Tećnico em Informática',
-    orgazionation: 'Slz Informática Ltda',
+    orgazionation: 'Slz Informática',
     duration: '5 anos',
     details:
       'Responsável pela montagem e manutenção de computadores, detecção e correção de problemas nos sistemas, instalação e configuração de redes, aplicativos, programas e softwares, além de desenvolvimento de sistemas e websites.',

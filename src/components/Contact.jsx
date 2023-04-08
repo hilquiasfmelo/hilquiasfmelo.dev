@@ -1,13 +1,14 @@
 export function Contact() {
-  const GETFORM_URL =
-    'https://getform.io/f/022fcb9b-f264-401a-a78a-d47a217f4370'
-
   return (
     <div id="contact" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
       <h1 className="py-4 text-4xl font-bold text-center text-[#001b5e]">
         Contato
       </h1>
-      <form action={GETFORM_URL} method="POST" encType="multipart/form-data">
+      <form
+        action={import.meta.env.VITE_GETFORM_URL}
+        method="POST"
+        encType="multipart/form-data"
+      >
         <div className="grid md:grid-cols-2 gap-4 w-full py-2">
           <div className="flex flex-col">
             <label className="uppercase text-sm py-2">Nome</label>
@@ -24,7 +25,7 @@ export function Contact() {
             </label>
             <input
               type="tel"
-              name="text"
+              name="phone"
               required
               className="border-2 rounded-lg flex p-3 border-gray300 outline-[#001b5e]"
             />
