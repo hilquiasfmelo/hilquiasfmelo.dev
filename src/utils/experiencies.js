@@ -1,9 +1,9 @@
 export const data = [
   {
     year: '2021 - atualmente',
-    title: 'Analista de Sistemas e Suporte em T.I',
+    title: 'Coordenador de Tecnologia da Informação',
     orgazionation: 'Ordem dos Advogado do Brasil Seccional do Maranhão',
-    duration: '2 anos',
+    duration: '2 anos e 6 meses',
     details:
       'Responsável pelo desenvolvimento e mantimento de sistemas criados dentro da empresa, como também organizar manter e estruturar infraestruturas de rede e cabeamento estruturado. Criar, configurar e manter servidores windows para gerenciamento de usuários e máquinas da empresa, assim como roteadores e firewall.',
   },
